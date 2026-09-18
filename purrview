@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ "$#" -eq 0 ]; then
+    echo "Usage: purrview <file> [file ...]" >&2
+    exit 1
+fi
+exec /usr/bin/open -b com.github.stefankn.Purrview -- "$@"
