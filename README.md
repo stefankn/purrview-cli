@@ -1,6 +1,6 @@
-# homebrew-purrview
+# purrview-cli
 
-Homebrew tap for `purrview`, a command line launcher for the [Purrview](https://github.com/stefankn/Purrview) markdown viewer for macOS.
+`purrview` is a command line launcher for the [Purrview](https://github.com/stefankn/Purrview) markdown viewer for macOS.
 
 `purrview` is a thin wrapper around `open -b com.github.stefankn.Purrview` — it doesn't render anything itself, it just hands your file(s) off to the Purrview app.
 
@@ -11,14 +11,7 @@ The Purrview app itself must already be installed (this tap only installs the `p
 ## Installation
 
 ```sh
-brew tap stefankn/purrview
-brew install purrview-cli
-```
-
-Since this tap isn't on Homebrew's official allow-list, the first install will ask you to trust it:
-
-```sh
-brew trust stefankn/purrview
+brew install stefankn/tap/purrview-cli
 ```
 
 ## Usage
